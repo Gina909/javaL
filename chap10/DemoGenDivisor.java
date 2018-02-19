@@ -11,7 +11,7 @@ class DemoGenDivisor{
         
         GenDivisor g = new GenDivisor();
         
-        for(int i = 0; i < 5; i++){
+        for(int i = 0; i < 100; i++){
             p = (int) (100* randa.nextDouble());
             q = (int) (100* randa.nextDouble());
             System.out.println("sending p and q:  " +  p  + "   " + q + "  to GenDivisor");
